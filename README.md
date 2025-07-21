@@ -27,3 +27,14 @@ A bold, flirty AI companion chat experience built with **Next.js**, **OpenAI**, 
 
 ## Project Structure
 
+/pages
+index.js → Home page
+characters.js → Character grid
+/chat/[id].js → Chat UI
+/api/chat.js → OpenAI API handler
+/data
+characters.json → Personality profiles
+/public/avatars → Character avatar images
+.env.local → API key (not committed)
+
+
